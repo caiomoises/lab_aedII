@@ -13,9 +13,10 @@ int fib(int n){
 int main(){
     double soma = 0;
 
-    for(int i=0; i<10; i++){
+    for(int i=0; i<100; i++){
+        printf("Repeticao: %d\n", i);
         clock_t start = clock();
-        fib(43);
+        fib(40);
         clock_t end = clock();
         soma += (double) (end - start);
     }
