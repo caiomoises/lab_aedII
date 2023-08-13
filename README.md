@@ -19,3 +19,9 @@
 
         ./main
 - Depurar: 
+
+        gcc -o main 'nome do arquivo' -g
+        
+- GBD para depuração:
+
+        gdb main 
