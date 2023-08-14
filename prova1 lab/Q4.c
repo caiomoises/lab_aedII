@@ -21,16 +21,16 @@ int isPerfect(int n) {
 int main() {
     int n, r;
 
-    printf("\nInsira um número: ");
-    scanf("%i", &n);
+    printf("\nInsira um numero: ");
+    scanf("%d", &n);
 
     // Chama a função para verificar se o número é perfeito e armazena o resultado
     r = isPerfect(n);
 
     if (r == n) {
-        printf("\n%i é um número perfeito\n", n);
+        printf("\n%d e um numero perfeito\n", n);
     } else {
-        printf("\n%i não é um número perfeito\n", n);
+        printf("\n%d nao e um numero perfeito\n", n);
     }
 
     return 0;
