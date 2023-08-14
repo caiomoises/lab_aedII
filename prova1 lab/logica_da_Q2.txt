@@ -8,3 +8,14 @@ ultimoDia = 29 + 300 + 738.395 = 738.724
 
 semanas = (738.724 - 738.648)/7 = 76/7 = 10
 quantAulas = 10*2 = 20 Aulas
+
+ano = 2023
+mes = 08 * 30 = 240
+dia = 14 + 240 + 2023 = 2277
+
+ultimoAno = 2023
+ultimoMes = 10 * 30 = 300
+UltimoDia = 29 + 300 + 2023 = 2352
+
+Semanas = 2352 - 2277 = 75 / 7 = 10 semanas
+quantAulas = 10 * 2 = 20 aulas
