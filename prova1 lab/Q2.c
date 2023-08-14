@@ -3,12 +3,12 @@
 
 int diasAulas(int dia, int mes, int ano){
     int ultimoDia = 29, ultimoMes = 10, ultimoAno = 2023;
-    ano *= 365;
+    ano = ano;
     mes *= 30;
     dia = dia + mes + ano;
     
     int semanas, quatdAulas;
-    ultimoAno *= 365;
+    ultimoAno = ultimoAno;
     ultimoMes *= 30;
     ultimoDia = ultimoDia + ultimoAno + ultimoMes;
 
@@ -25,8 +25,10 @@ int main(){
     scanf("%d %d %d", &dia, &mes, &ano);
 
     int date = diasAulas(dia, mes, ano);
+    
     if(date > 0){
         printf("Faltam %d aulas de LAEDII para finalizar a disciplina! ", date);
-    }
+    }else {
         printf("O semestre ja encerrou!");
+    }
 }
