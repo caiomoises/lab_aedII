@@ -12,12 +12,8 @@ int calculate(int m, int n) {
     }
     // Caso geral: utiliza recursão para calcular f(m, n)
     else {
-        // Chamada recursiva para f(m, n - 1)
-        int result1 = calculate(m, n - 1);
-        // Chamada recursiva para f(m - 1, n)
-        int result2 = calculate(m - 1, n);
         // Retorna a soma dos resultados das chamadas recursivas
-        return result1 + result2;
+        return calculate(m, n - 1) + calculate(m - 1, n);
     }
 }
 
