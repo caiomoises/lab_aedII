@@ -22,6 +22,6 @@
 
         gcc -o main 'nome do arquivo' -g
         
-- GBD para depuração:
+- GDB para depuração:
 
         gdb main 
